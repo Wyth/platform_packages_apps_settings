@@ -1869,7 +1869,7 @@
     <!-- About phone screen,  setting option name-->
     <string name="kernel_version">Kernel version</string>
     <!-- About phone screen,  setting option name-->
-    <string name="build_number">KILLRom Build</string>
+    <string name="build_number">Build number</string>
     <!-- About phone screen,  setting option name-->
     <string name="selinux_status">SELinux status</string>
 
@@ -4402,4 +4402,10 @@
 
     <!-- KILLRHome settings  -->
     <string name="launcher_settings_title">KILLRHome</string>
+
+    <!-- About phone screen,  setting option name-->
+    <string name="mod_version">KILLRom version</string>
+    <string name="mod_version_default">Unknown</string>
+
+    <!-- **** CYANOGENMOD ADDITIONS END **** -->
 </resources>
