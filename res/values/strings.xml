@@ -4475,6 +4475,11 @@
     <!-- Notification Drawer  -->
     <string name="notification_drawer_title">Notification drawer</string>
 
+    <!-- Lock screen misc. settings -->
+    <string name="lockscreen_battery_status_title">Battery status</string>
+    <string name="lockscreen_battery_status_charging">Only when charging</string>
+    <string name="lockscreen_battery_status_alwayson">Always on</string>
+
     <!-- Profiles settings  -->
     <string name="profiles_settings_title">Smart Profiles</string>
     <string name="header_summary_profiles">Setup Profiles</string>
