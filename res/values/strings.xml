@@ -4406,6 +4406,10 @@
 
     <!-- KILLROM EDITS START -->
 
+    <!-- Themes settings  -->
+    <string name="themes_settings_title">Themes</string>
+    <string name="header_summary_themes">Get your theme on</string>
+
     <string name="ok">OK</string>
 
     <!-- Quiet hours -->
@@ -4454,7 +4458,6 @@
 
     <string name="lock_screen_title">Lock Screen Mods</string>
     <string name="header_summary_lockscreen">Lock Screen Options</string>
-
 
     <!-- Lock Screen Shortcuts -->
     <string name="lockscreen_target_info">Drag the slider to targets to assign shortcuts</string>
