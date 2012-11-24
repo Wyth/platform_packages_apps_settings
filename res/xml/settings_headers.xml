@@ -26,6 +26,12 @@
         android:title="@string/launcher_settings_title"
         android:icon="@drawable/ic_settings_cmlauncher" />
 
+    <!-- System -->
+    <header
+        android:id="@+id/system_settings"
+        android:icon="@drawable/ic_settings_system"
+        android:fragment="com.android.settings.cyanogenmod.SystemSettings"
+        android:title="@string/system_settings_title" />
 
     <!-- WIRELESS and NETWORKS -->
     <header android:id="@+id/wireless_section"

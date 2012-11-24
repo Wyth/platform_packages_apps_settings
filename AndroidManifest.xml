@@ -1465,6 +1465,8 @@
         </activity>
 
         <!-- CyanogenMod activities Start -->
+        <activity android:name=".cyanogenmod.SystemSettings" />
+
         <activity android:name=".profiles.ProfilesSettings" />
 
         <activity android:name=".profiles.ProfileConfig" />
@@ -1478,6 +1480,8 @@
         <activity android:name=".profiles.NFCProfileWriter" />
 
         <activity android:name=".profiles.NFCProfileSelect" />
+
+        <activity android:name=".cyanogenmod.PowerMenu" />
 
         <activity android:name=".profiles.NFCProfile"
                 android:theme="@android:style/Theme.NoDisplay">
