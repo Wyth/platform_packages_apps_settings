@@ -4654,7 +4654,8 @@
     <string name="power_menu_screenshot_title">Screenshot</string>
     <string name="power_menu_profiles_title">Profile switcher</string>
     <string name="power_menu_airplane_title">Airplane mode</string>
+    <string name="power_menu_user_title">User switcher</string>
     <string name="power_menu_silent_title">Sound panel</string>
 
-    <!-- **** CYANOGENMOD ADDITIONS END **** -->f61c79b7391dad2d4102aaa3b7631309e1a57858
+    <!-- **** CYANOGENMOD ADDITIONS END **** -->
 </resources>
