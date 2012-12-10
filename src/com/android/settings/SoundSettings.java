@@ -50,6 +50,8 @@ import android.text.format.DateFormat;
 import android.util.Log;
 import android.view.VolumePanel;
 
+import com.android.settings.R;
+
 import java.util.Date;
 import java.util.Calendar;
 import java.util.List;
