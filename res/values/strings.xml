@@ -29,9 +29,9 @@
     <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
     <string name="show_dev_countdown">You are now <xliff:g id="step_count">%1$d</xliff:g> steps away from being a developer.</string>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
-    <string name="show_dev_on">You are now a developer!</string>
+    <string name="show_dev_on">You are NOT a developer! But you can now pretend</string>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Okay we get it, stop pressing, you already have it on -->
-    <string name="show_dev_already">No need, you are already a developer.</string>
+    <string name="show_dev_already">Nice try but you are still not a developer.</string>
 
     <!-- Category headings in left-pane header menu --> <skip />
     <!-- Settings main menu category heading. Wireless and networks (Wi-Fi, Bluetooth, data usage...). [CHAR LIMIT=40] -->
@@ -2985,7 +2985,7 @@
     <string name="builtin_keyboard_settings_summary">Physical keyboard settings</string>
 
     <!-- Development Settings.  the title for the item to take the user to Development settings.  Development settings are settings meant for application developers.  -->
-    <string name="development_settings_title">Developer options</string>
+    <string name="development_settings_title">Developer Settings</string>
     <!-- Development Settings summary.  The summary of the item to take the user to Development settings.  Development settings are settings meant for application developers. -->
     <string name="development_settings_summary">Set options for app development</string>
     <!-- Setting checkbox title for Whether to enable USB debugging support on the phone. -->
@@ -4395,13 +4395,13 @@
     <string name="cell_broadcast_settings_summary">Select the types of emergency alerts to display.</string>
 
     <!-- MODIFIER Settings  -->
-    <!-- Settings main menu category heading. Interface (Launcher, Themes, System). [CHAR LIMIT=40] -->
+    <!-- Settings main menu category heading. Interface (Launcher, Profiles, System). [CHAR LIMIT=40] -->
     <string name="header_category_interface">KILLR MODIFIER</string>
 
     <!-- KILLRHome settings  -->
     <string name="launcher_settings_title">KILLRHome</string>
 
-    <!-- CYANOGENMOD EDITS START -->
+    <!-- KILLROM EDITS START -->
 
     <string name="ok">OK</string>
 
@@ -4449,7 +4449,7 @@
     <!-- About phone screen, status item label -->
 
     <!-- Profiles settings  -->
-    <string name="profiles_settings_title">Profiles</string>
+    <string name="profiles_settings_title">Smart Profiles</string>
     <string name="profiles_general_title">General</string>
     <string name="profiles_add">Add</string>
     <string name="profile_menu_delete">Delete</string>
@@ -4644,5 +4644,5 @@
     <string name="silent_mode_title">Silent mode</string>
     <string name="volume_ring_only_description">Ringtone</string>
 
-    <!-- **** CYANOGENMOD ADDITIONS END **** -->
+    <!-- **** KILLROM ADDITIONS END **** -->
 </resources>
