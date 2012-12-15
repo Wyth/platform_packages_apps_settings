@@ -2986,6 +2986,8 @@
 
     <!-- Development Settings.  the title for the item to take the user to Development settings.  Development settings are settings meant for application developers.  -->
     <string name="development_settings_title">Developer Settings</string>
+    <string name="header_summary_development">Additional ROM Settings</string>
+
     <!-- Development Settings summary.  The summary of the item to take the user to Development settings.  Development settings are settings meant for application developers. -->
     <string name="development_settings_summary">Set options for app development</string>
     <!-- Setting checkbox title for Whether to enable USB debugging support on the phone. -->
@@ -4400,6 +4402,7 @@
 
     <!-- KILLRHome settings  -->
     <string name="launcher_settings_title">KILLRHome</string>
+    <string name="header_summary_home">Launcher Mods</string>
 
     <!-- KILLROM EDITS START -->
 
@@ -4451,8 +4454,11 @@
     <!-- System Interface settings  -->
     <string name="system_settings_title">System</string>
     <string name="system_interface_title">System interface</string>
+    <string name="header_summary_system">General System Mods</string>
 
-    <string name="lock_screen_title">Lock screen</string>
+    <string name="lock_screen_title">Lock Screen Mods</string>
+    <string name="header_summary_lockscreen">lockscreen</string>
+
 
     <!-- Lock Screen Shortcuts -->
     <string name="lockscreen_target_info">Drag the slider to targets to assign shortcuts</string>
@@ -4468,6 +4474,7 @@
 
     <!-- Profiles settings  -->
     <string name="profiles_settings_title">Smart Profiles</string>
+    <string name="header_summary_profiles">Setup Profiles</string>
     <string name="profiles_general_title">General</string>
     <string name="profiles_add">Add</string>
     <string name="profile_menu_delete">Delete</string>
@@ -4708,8 +4715,8 @@
     <!-- **** KILLROM ADDITIONS END **** -->
 
     <string name="title_statusbar_battery">Statusbar Battery</string>
-    <string name="header_summary_battery">Battery Settings</string>
-    <string name="battery">Battery</string>
+    <string name="header_summary_battery">Battery Mods</string>
+    <string name="battery">Battery Mods</string>
     <string name="app_name">Settings</string>
 
     <!-- Statusbar | Battery -->

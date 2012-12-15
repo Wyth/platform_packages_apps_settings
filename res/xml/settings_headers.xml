@@ -24,30 +24,26 @@
     <header
         android:id="@+id/launcher_settings"
         android:title="@string/launcher_settings_title"
-        android:icon="@drawable/ic_settings_killrhome" />
+        android:icon="@drawable/ic_settings_killrhome"
+        android:summary="@string/header_summary_home" />
 
     <!-- System -->
     <header
         android:id="@+id/system_settings"
+        android:title="@string/system_settings_title"
         android:icon="@drawable/ic_settings_system"
-        android:fragment="com.android.settings.cyanogenmod.SystemSettings"
-        android:title="@string/system_settings_title" />
-
-    <!-- Profiles -->
-    <header
-        android:id="@+id/profiles_settings"
-        android:icon="@drawable/ic_settings_profiles"
-        android:fragment="com.android.settings.profiles.ProfilesSettings"
-        android:title="@string/profiles_settings_title" />
+        android:summary="@string/header_summary_system"
+        android:fragment="com.android.settings.cyanogenmod.SystemSettings" />
 
     <!-- Lock screen -->
     <header
         android:id="@+id/lock_screen_settings"
+        android:title="@string/lock_screen_title"
         android:icon="@drawable/ic_settings_lockscreen"
-        android:fragment="com.android.settings.cyanogenmod.LockscreenInterface"
-        android:title="@string/lock_screen_title" />
+        android:summary="@string/header_summary_lockscreen"
+        android:fragment="com.android.settings.cyanogenmod.LockscreenInterface" />
 
-    <!-- Batery -->
+    <!-- Battery -->
     <header
         android:id="@+id/statusbar_battery"
         android:title="@string/battery"
@@ -55,11 +51,20 @@
         android:icon="@drawable/ic_rom_control_battery"
         android:summary="@string/header_summary_battery" />
 
+    <!-- Profiles -->
+    <header
+        android:id="@+id/profiles_settings"
+        android:title="@string/profiles_settings_title"
+        android:icon="@drawable/ic_settings_profiles"
+        android:summary="@string/header_summary_profiles"
+        android:fragment="com.android.settings.profiles.ProfilesSettings" />
+
     <!-- Development -->
     <header
         android:id="@+id/development_settings"
         android:fragment="com.android.settings.DevelopmentSettings"
         android:icon="@drawable/ic_settings_development"
+        android:summary="@string/header_summary_development"
         android:title="@string/development_settings_title" />
 
     <!-- WIRELESS and NETWORKS -->
