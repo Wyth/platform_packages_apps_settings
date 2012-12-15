@@ -43,9 +43,17 @@
     <!-- Lock screen -->
     <header
         android:id="@+id/lock_screen_settings"
+        android:icon="@drawable/ic_settings_lockscreen"
         android:fragment="com.android.settings.cyanogenmod.LockscreenInterface"
-        android:title="@string/lock_screen_title"
-        android:icon="@drawable/ic_settings_lockscreen" />
+        android:title="@string/lock_screen_title" />
+
+    <!-- Batery -->
+    <header
+        android:id="@+id/statusbar_battery"
+        android:title="@string/battery"
+        android:fragment="com.android.settings.aokp.StatusBarBattery"
+        android:icon="@drawable/ic_rom_control_battery"
+        android:summary="@string/header_summary_battery" />
 
     <!-- Development -->
     <header
