@@ -4448,6 +4448,10 @@
     <string name="mem_info">Memory</string>
     <!-- About phone screen, status item label -->
 
+    <!-- System Interface settings  -->
+    <string name="system_settings_title">System</string>
+    <string name="system_interface_title">System interface</string>
+
     <!-- Profiles settings  -->
     <string name="profiles_settings_title">Smart Profiles</string>
     <string name="profiles_general_title">General</string>
@@ -4644,5 +4648,13 @@
     <string name="silent_mode_title">Silent mode</string>
     <string name="volume_ring_only_description">Ringtone</string>
 
-    <!-- **** KILLROM ADDITIONS END **** -->
+    <!-- Power menu enable disable -->
+    <string name="power_menu_title">Power menu</string>
+    <string name="power_menu_reboot_title">Reboot menu</string>
+    <string name="power_menu_screenshot_title">Screenshot</string>
+    <string name="power_menu_profiles_title">Profile switcher</string>
+    <string name="power_menu_airplane_title">Airplane mode</string>
+    <string name="power_menu_silent_title">Sound panel</string>
+
+    <!-- **** CYANOGENMOD ADDITIONS END **** -->f61c79b7391dad2d4102aaa3b7631309e1a57858
 </resources>
