@@ -66,7 +66,7 @@ public class SoundSettings extends SettingsPreferenceFragment implements
     private static final int FALLBACK_EMERGENCY_TONE_VALUE = 0;
 
     private static final String KEY_VOLUME_OVERLAY = "volume_overlay";
-    private static final String KEY_SILENT_MODE = "silent_mode";
+    private static final String KEY_RING_MODE = "ring_mode";
     private static final String KEY_VIBRATE = "vibrate_when_ringing";
     private static final String KEY_RING_VOLUME = "ring_volume";
     private static final String KEY_INCREASING_RING = "increasing_ring";
@@ -85,9 +85,9 @@ public class SoundSettings extends SettingsPreferenceFragment implements
     private static final String KEY_DOCK_SOUNDS = "dock_sounds";
     private static final String KEY_DOCK_AUDIO_MEDIA_ENABLED = "dock_audio_media_enabled";
 
-    private static final String SILENT_MODE_OFF = "off";
-    private static final String SILENT_MODE_VIBRATE = "vibrate";
-    private static final String SILENT_MODE_MUTE = "mute";
+    private static final String RING_MODE_NORMAL = "normal";
+    private static final String RING_MODE_VIBRATE = "vibrate";
+    private static final String RING_MODE_MUTE = "mute";
 
     private static final String[] NEED_VOICE_CAPABILITY = {
             KEY_RINGTONE, KEY_DTMF_TONE, KEY_CATEGORY_CALLS,
@@ -99,7 +99,7 @@ public class SoundSettings extends SettingsPreferenceFragment implements
 
     private CheckBoxPreference mVibrateWhenRinging;
     private ListPreference mVolumeOverlay;
-    private ListPreference mSilentMode;
+    private ListPreference mRingMode;
     private CheckBoxPreference mDtmfTone;
     private CheckBoxPreference mSoundEffects;
     private CheckBoxPreference mHapticFeedback;
@@ -166,12 +166,12 @@ public class SoundSettings extends SettingsPreferenceFragment implements
         mVolumeOverlay.setValue(Integer.toString(volumeOverlay));
         mVolumeOverlay.setSummary(mVolumeOverlay.getEntry());
 
-        mSilentMode = (ListPreference) findPreference(KEY_SILENT_MODE);
+        mRingMode = (ListPreference) findPreference(KEY_RING_MODE);
         if (!getResources().getBoolean(R.bool.has_silent_mode)) {
-            getPreferenceScreen().removePreference(mSilentMode);
+            getPreferenceScreen().removePreference(mRingMode);
             findPreference(KEY_RING_VOLUME).setDependency(null);
         } else {
-            mSilentMode.setOnPreferenceChangeListener(this);
+            mRingMode.setOnPreferenceChangeListener(this);
         }
 
         mVibrateWhenRinging = (CheckBoxPreference) findPreference(KEY_VIBRATE);
@@ -278,27 +278,27 @@ public class SoundSettings extends SettingsPreferenceFragment implements
         getActivity().unregisterReceiver(mReceiver);
     }
 
-    private void setPhoneSilentSettingValue(String value) {
+    private void setPhoneRingModeValue(String value) {
         int ringerMode = AudioManager.RINGER_MODE_NORMAL;
-        if (value.equals(SILENT_MODE_MUTE)) {
+        if (value.equals(RING_MODE_MUTE)) {
             ringerMode = AudioManager.RINGER_MODE_SILENT;
-        } else if (value.equals(SILENT_MODE_VIBRATE)) {
+        } else if (value.equals(RING_MODE_VIBRATE)) {
             ringerMode = AudioManager.RINGER_MODE_VIBRATE;
         }
         mAudioManager.setRingerMode(ringerMode);
     }
 
-    private String getPhoneSilentModeSettingValue() {
+    private String getPhoneRingModeSettingValue() {
         switch (mAudioManager.getRingerMode()) {
         case AudioManager.RINGER_MODE_NORMAL:
-            return SILENT_MODE_OFF;
+            return RING_MODE_NORMAL;
         case AudioManager.RINGER_MODE_VIBRATE:
-            return SILENT_MODE_VIBRATE;
+            return RING_MODE_VIBRATE;
         case AudioManager.RINGER_MODE_SILENT:
-            return SILENT_MODE_MUTE;
+            return RING_MODE_MUTE;
         }
         // Shouldn't happen
-        return SILENT_MODE_OFF;
+        return RING_MODE_NORMAL;
     }
 
     // updateState in fact updates the UI to reflect the system state
@@ -306,9 +306,9 @@ public class SoundSettings extends SettingsPreferenceFragment implements
         if (getActivity() == null) return;
         ContentResolver resolver = getContentResolver();
 
-        mSilentMode.setValue(getPhoneSilentModeSettingValue());
+        mRingMode.setValue(getPhoneRingModeSettingValue());
 
-        mSilentMode.setSummary(mSilentMode.getEntry());
+        mRingMode.setSummary(mRingMode.getEntry());
     }
 
     private void updateRingtoneName(int type, Preference preference, int msg) {
@@ -419,8 +419,8 @@ public class SoundSettings extends SettingsPreferenceFragment implements
             } catch (NumberFormatException e) {
                 Log.e(TAG, "could not persist emergency tone setting", e);
             }
-        } else if (preference == mSilentMode) {
-            setPhoneSilentSettingValue(objValue.toString());
+        } else if (preference == mRingMode) {
+            setPhoneRingModeValue(objValue.toString());
         } else if (preference == mVolumeOverlay) {
             final int value = Integer.valueOf((String) objValue);
             final int index = mVolumeOverlay.findIndexOfValue((String) objValue);

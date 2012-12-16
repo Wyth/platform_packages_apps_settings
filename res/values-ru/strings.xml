@@ -1836,4 +1836,5 @@
     <string name="user_picture_title" msgid="7297782792000291692">"Документ с фото"</string>
     <string name="cell_broadcast_settings" msgid="8415582011920085222">"Широковещательная передача сообщений"</string>
     <string name="cell_broadcast_settings_summary" msgid="3301339398950905913">"Выберите типы экстренных оповещений на экране."</string>
+
 </resources>
