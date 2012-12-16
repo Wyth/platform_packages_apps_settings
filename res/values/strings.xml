@@ -4409,6 +4409,7 @@
     <string name="ok">OK</string>
 
     <!-- Quiet hours -->
+    <string name="header_quiet_hours">Quiet Hours Mods</string>
     <string name="quiet_hours_title">Quiet hours</string>
     <string name="quiet_hours_summary">Configure the hours the device should be quiet</string>
     <string name="quiet_hours_note_title">Note</string>
@@ -4451,8 +4452,8 @@
     <string name="mem_info">Memory</string>
     <!-- About phone screen, status item label -->
 
-    <string name="lock_screen_title">Lock Screen Mods</string>
-    <string name="header_summary_lockscreen">lockscreen</string>
+    <string name="lock_screen_title">Lock Screen</string>
+    <string name="header_summary_lockscreen">Lock Screen Mods</string>
 
 
     <!-- Lock Screen Shortcuts -->
@@ -4699,7 +4700,7 @@
     <string name="volume_ring_only_description">Ringtone</string>
 
     <!-- Power menu enable disable -->
-    <string name="header_power_menu">Power Menu Mods</string>
+    <string name="header_power_menu">Power Menu</string>
     <string name="power_menu_title">Power menu Mods</string>
     <string name="power_menu_reboot_title">Reboot menu</string>
     <string name="power_menu_screenshot_title">Screenshot</string>
@@ -4711,7 +4712,7 @@
     <!-- **** KILLROM ADDITIONS END **** -->
 
     <string name="title_statusbar_battery">Statusbar Battery</string>
-    <string name="header_summary_battery">Battery Mods</string>
+    <string name="header_summary_battery">Battery</string>
     <string name="battery">Battery Mods</string>
     <string name="app_name">Settings</string>
 

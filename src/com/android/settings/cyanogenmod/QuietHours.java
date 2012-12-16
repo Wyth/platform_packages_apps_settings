@@ -16,18 +16,23 @@
 
 package com.android.settings.cyanogenmod;
 
+import android.content.Context;
 import android.content.ContentResolver;
 import android.os.Bundle;
+import android.os.RemoteException;
+import android.os.ServiceManager;
 import android.preference.CheckBoxPreference;
 import android.preference.Preference;
+import android.preference.PreferenceActivity;
+import android.preference.PreferenceFragment;
+import android.preference.Preference.OnPreferenceChangeListener;
 import android.preference.PreferenceScreen;
 import android.provider.Settings;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
-public class QuietHours extends SettingsPreferenceFragment implements
-        Preference.OnPreferenceChangeListener  {
+public class QuietHours extends SettingsPreferenceFragment implements OnPreferenceChangeListener  {
 
     private static final String TAG = "QuietHours";
     private static final String KEY_QUIET_HOURS_ENABLED = "quiet_hours_enabled";
