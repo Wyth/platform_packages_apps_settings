@@ -4747,6 +4747,7 @@
     <string name="icon_with_text">Icon with text</string>
     <string name="icon_with_centered_text">Icon with centered text</string>
     <string name="circlemod">CircleMOD</string>
+    <string name="stub">KillrStub</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>
