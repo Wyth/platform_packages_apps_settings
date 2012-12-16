@@ -27,13 +27,13 @@
         android:icon="@drawable/ic_settings_killrhome"
         android:summary="@string/header_summary_home" />
 
-    <!-- System -->
+    <!-- Power Menu -->
     <header
-        android:id="@+id/system_settings"
-        android:title="@string/system_settings_title"
-        android:icon="@drawable/ic_settings_system"
-        android:summary="@string/header_summary_system"
-        android:fragment="com.android.settings.cyanogenmod.SystemSettings" />
+        android:id="@+id/power_menu_settings"
+        android:title="@string/power_menu_title"
+        android:icon="@drawable/ic_power_menu"
+        android:summary="@string/header_power_menu"
+        android:fragment="com.android.settings.cyanogenmod.PowerMenu" />
 
     <!-- Lock screen -->
     <header

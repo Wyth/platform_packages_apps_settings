@@ -1465,8 +1465,6 @@
         </activity>
 
         <!-- CyanogenMod activities Start -->
-        <activity android:name=".cyanogenmod.SystemSettings" />
-
         <activity android:name=".profiles.ProfilesSettings" />
 
         <activity android:name=".profiles.ProfileConfig" />

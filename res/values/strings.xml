@@ -4451,11 +4451,6 @@
     <string name="mem_info">Memory</string>
     <!-- About phone screen, status item label -->
 
-    <!-- System Interface settings  -->
-    <string name="system_settings_title">System</string>
-    <string name="system_interface_title">System interface</string>
-    <string name="header_summary_system">General System Mods</string>
-
     <string name="lock_screen_title">Lock Screen Mods</string>
     <string name="header_summary_lockscreen">lockscreen</string>
 
@@ -4704,7 +4699,8 @@
     <string name="volume_ring_only_description">Ringtone</string>
 
     <!-- Power menu enable disable -->
-    <string name="power_menu_title">Power menu</string>
+    <string name="header_power_menu">Power Menu Mods</string>
+    <string name="power_menu_title">Power menu Mods</string>
     <string name="power_menu_reboot_title">Reboot menu</string>
     <string name="power_menu_screenshot_title">Screenshot</string>
     <string name="power_menu_profiles_title">Profile switcher</string>
