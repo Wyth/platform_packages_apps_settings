@@ -4409,8 +4409,8 @@
     <string name="ok">OK</string>
 
     <!-- Quiet hours -->
-    <string name="header_quiet_hours">Setup Quiet Hours</string>
-    <string name="quiet_hours_title">Quiet Hours</string>
+    <string name="header_quiet_hours">Quiet Hours</string>
+    <string name="quiet_hours_title">Quiet Hours Setup</string>
     <string name="quiet_hours_summary">Configure the hours the device should be quiet</string>
     <string name="quiet_hours_note_title">Note</string>
     <string name="quiet_hours_note_summary">Incoming calls will behave like usual during quiet hours</string>
@@ -4441,10 +4441,10 @@
     <string name="end_time_title">End</string>
 
     <!-- About phone screen,  setting option name-->
-    <string name="mod_version">KILLRom version</string>
+    <string name="mod_version">KILLRom Version</string>
     <string name="mod_version_default">Unknown</string>
     <!-- About phone screen, build date of ROM -->
-    <string name="build_date">Build date</string>
+    <string name="build_date">Date Of Crime</string>
     <string name="build_date_default">2012-01-01-0000</string>
     <!-- About device screen, Cpu info. -->
     <string name="cpu_info">CPU</string>
@@ -4817,7 +4817,7 @@
     <!-- **** KILLROM ADDITIONS END **** -->
 
     <string name="title_statusbar_battery">Statusbar Battery</string>
-    <string name="header_summary_battery">Battery Options</string>
+    <string name="header_summary_battery">Battery Styles</string>
     <string name="battery">Battery Mods</string>
     <string name="app_name">Settings</string>
 
