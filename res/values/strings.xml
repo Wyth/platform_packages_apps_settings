@@ -4409,8 +4409,8 @@
     <string name="ok">OK</string>
 
     <!-- Quiet hours -->
-    <string name="header_quiet_hours">Quiet Hours Options</string>
-    <string name="quiet_hours_title">Quiet Hours Mods</string>
+    <string name="header_quiet_hours">Quiet Hours Mods</string>
+    <string name="quiet_hours_title">Quiet Hours Options</string>
     <string name="quiet_hours_summary">Configure the hours the device should be quiet</string>
     <string name="quiet_hours_note_title">Note</string>
     <string name="quiet_hours_note_summary">Incoming calls will behave like usual during quiet hours</string>

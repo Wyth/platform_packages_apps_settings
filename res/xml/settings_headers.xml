@@ -64,7 +64,7 @@
         android:id="@+id/quiet_hours_settings"
         android:title="@string/header_quiet_hours"
         android:icon="@drawable/ic_settings_quiet_hours"
-        android:summary="@string/header_quiet_hours"
+        android:summary="@string/quiet_hours_title"
         android:fragment="com.android.settings.cyanogenmod.QuietHours" />
 
     <!-- Quick Settings -->

@@ -182,8 +182,6 @@ public class SoundSettings extends SettingsPreferenceFragment implements
                     returnTime(Settings.System.getString(resolver, Settings.System.QUIET_HOURS_START))
                     + " " + getString(R.string.quiet_hours_active_to) + " " +
                     returnTime(Settings.System.getString(resolver, Settings.System.QUIET_HOURS_END)));
-        } else {
-            mQuietHours.setSummary(getString(R.string.quiet_hours_summary));
         }
 
         mVibrateWhenRinging = (CheckBoxPreference) findPreference(KEY_VIBRATE);
@@ -325,8 +323,6 @@ public class SoundSettings extends SettingsPreferenceFragment implements
                     returnTime(Settings.System.getString(resolver, Settings.System.QUIET_HOURS_START))
                     + " " + getString(R.string.quiet_hours_active_to) + " " +
                     returnTime(Settings.System.getString(resolver, Settings.System.QUIET_HOURS_END)));
-        } else {
-            mQuietHours.setSummary(getString(R.string.quiet_hours_summary));
         }
 
         mSilentMode.setSummary(mSilentMode.getEntry());
