@@ -1865,9 +1865,9 @@
     <!-- About phone screen,  setting option name-->
     <string name="baseband_version">Baseband version</string>
     <!-- About phone screen,  setting option name-->
-    <string name="kernel_version">Kernel version</string>
+    <string name="kernel_version">Kernel Version</string>
     <!-- About phone screen,  setting option name-->
-    <string name="build_number">Build number</string>
+    <string name="build_number">Date of Crime</string>
     <!-- About phone screen,  setting option name-->
     <string name="selinux_status">SELinux status</string>
 
@@ -4398,7 +4398,7 @@
 
     <!-- MODIFIER Settings  -->
     <!-- Settings main menu category heading. Interface (Launcher, Profiles, System). [CHAR LIMIT=40] -->
-    <string name="header_category_interface">KILLR MODIFIER</string>
+    <string name="header_category_interface">KILLR MODIFIERS</string>
 
     <!-- KILLRHome settings  -->
     <string name="launcher_settings_title">KILLRHome</string>
@@ -4409,8 +4409,8 @@
     <string name="ok">OK</string>
 
     <!-- Quiet hours -->
-    <string name="header_quiet_hours">Quiet Hours Mods</string>
-    <string name="quiet_hours_title">Quiet Hours Options</string>
+    <string name="header_quiet_hours">Setup Quiet Hours</string>
+    <string name="quiet_hours_title">Quiet Hours</string>
     <string name="quiet_hours_summary">Configure the hours the device should be quiet</string>
     <string name="quiet_hours_note_title">Note</string>
     <string name="quiet_hours_note_summary">Incoming calls will behave like usual during quiet hours</string>
@@ -4755,8 +4755,8 @@
     <string name="volume_ring_only_description">Ringtone</string>
 
     <!-- Power menu enable disable -->
-    <string name="header_power_menu">Power Menu Options</string>
-    <string name="power_menu_title">Power menu Mods</string>
+    <string name="header_power_menu">Setup Power Menu</string>
+    <string name="power_menu_title">Power Menu Mods</string>
     <string name="power_menu_reboot_title">Reboot menu</string>
     <string name="power_menu_screenshot_title">Screenshot</string>
     <string name="power_menu_profiles_title">Profile switcher</string>
@@ -4765,8 +4765,8 @@
     <string name="power_menu_silent_title">Sound panel</string>
 
     <!-- Quick settings panel  -->
-    <string name="quick_settings_panel_title">Quick Settings Mods</string>
-    <string name="quick_settings_title">Quick Settings Panel Options</string>
+    <string name="quick_settings_panel_title">Quick Settings</string>
+    <string name="quick_settings_title">Quick Settings Tiles</string>
     <string name="title_static_tiles">Static tiles</string>
     <string name="tile_picker_title">Tiles and layout</string>
     <string name="tile_picker_summary">View, select or change the layout of the displayed tiles</string>
@@ -4846,9 +4846,9 @@
     <string name="text_only">Text only</string>
 
     <!-- Battery styles -->
-    <string name="icon_with_text">Icon with text</string>
-    <string name="icon_with_centered_text">Icon with centered text</string>
-    <string name="circlemod">CircleMOD</string>
+    <string name="icon_with_text">Offset Percent</string>
+    <string name="icon_with_centered_text">Centered Percent</string>
+    <string name="circlemod">Circle Gear</string>
     <string name="stub">KillrStub</string>
 
     <!-- Color Picker -->
