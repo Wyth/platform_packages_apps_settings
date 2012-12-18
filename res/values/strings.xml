@@ -4641,8 +4641,8 @@
     <string name="header_summary_performance">Set Performance Options</string>
 
     <!-- Performance Settings : Warning dialog  -->
-    <string name="performance_settings_warning_title">Slow Down Speed Demon!</string>
-    <string name="performance_settings_warning">These settings are included for those that like to Go Faster. They are fun but use at your own risk!</string>
+    <string name="performance_settings_warning_title">Heads Up!</string>
+    <string name="performance_settings_warning">These settings are included for those you like to Go Faster. Use at your own risk!</string>
 
     <!-- Performance Settings : Processor Settings -->
     <!-- Performance Settings : Processor settings title -->
