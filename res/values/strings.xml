@@ -4873,4 +4873,8 @@
     <string name="set">Set</string>
     <string name="ics_color">Holo</string>
 
+    <!-- Speed Demon -->
+    <string name="header_summary_speeddemon">Get Demonic with your speed</string>
+    <string name="speeddemon_title">Speed Demon</string>
+
 </resources>
