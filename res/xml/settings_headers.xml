@@ -43,14 +43,6 @@
         android:summary="@string/header_summary_lockscreen"
         android:fragment="com.android.settings.cyanogenmod.LockscreenInterface" />
 
-    <!-- Performance -->
-    <header
-        android:id="@+id/performance_settings"
-        android:title="@string/performance_settings_title" 
-        android:icon="@drawable/ic_settings_performance"
-        android:summary="@string/header_summary_performance"
-        android:fragment="com.android.settings.cyanogenmod.PerformanceSettings"/>
-
     <!-- Power Menu -->
     <header
         android:id="@+id/power_menu_settings"
