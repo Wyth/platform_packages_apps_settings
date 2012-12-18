@@ -4407,8 +4407,8 @@
     <!-- KILLROM EDITS START -->
 
     <!-- Themes settings  -->
-    <string name="themes_settings_title">Themes</string>
-    <string name="header_summary_themes">Get your theme on</string>
+    <string name="themes_settings_title">Theme Chooser</string>
+    <string name="header_summary_themes">Get Your Theme On</string>
 
     <string name="ok">OK</string>
 
