@@ -4877,4 +4877,16 @@
     <string name="header_summary_speeddemon">Get Demonic with your speed</string>
     <string name="speeddemon_title">Speed Demon</string>
 
+    <!-- Lockscreen -->
+    <string name="lock_widgets_short">Lockscreen Widgets</string>
+    <string name="lock_rotate_short">Lockscreen Rotation</string>
+    <string name="lockscreen_auto_rotate_title">Allow lockscreen rotation</string>
+    <string name="lockscreen_auto_rotate_summary">Lockscreen will have ability to rotate via device orientation. This is independent of Auto-rotation in display</string>
+    <string name="lockscreen_all_widgets_title">Allow all widgets</string>
+    <string name="lockscreen_all_widgets_summary">Warning** Some widgets are not intended to be used on the lockscreen, If they don\'t work don\'t blame us.</string>
+    <string name="lockscreen_unlimited_widgets_title">Allow unlimited widgets</string>
+    <string name="lockscreen_unlimited_widgets_summary">Warning** Adding too many widgets can cause lag issues with lockscreen.</string>
+    <string name="lockscreen_text_color">Lockscreen text</string>
+    <string name="lockscreen_text_color_title">Choose color</string>
+
 </resources>

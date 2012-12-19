@@ -1483,6 +1483,8 @@
 
         <activity android:name=".cyanogenmod.LockscreenInterface" />
 
+        <activity android:name=".aokp.Lockscreens" />
+
         <activity android:name=".cyanogenmod.PowerMenu" />
 
         <activity android:name=".cyanogenmod.QuietHours" />
@@ -1543,6 +1545,16 @@
         <activity
             android:name=".aokp.StatusBarBattery"
             android:label="@string/title_statusbar_battery" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.android.settings.SHORTCUT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".aokp.Lockscreens"
+            android:label="@string/lock_screen_title" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
