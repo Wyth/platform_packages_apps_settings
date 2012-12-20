@@ -4666,7 +4666,7 @@
     <string name="link_volume_mutes">Silent mode affects notifications</string>
 
     <!-- Display settings screen, notification light settings -->
-    <string name="notification_pulse_title">Notification light</string>
+    <string name="notification_pulse_title">LED Modifier</string>
     <string name="notification_light_general_title">General</string>
     <string name="notification_light_applist_title">Applications</string>
     <string name="notification_light_phonelist_title">Phone</string>
@@ -4751,8 +4751,8 @@
     <string name="navigation_bar_menu_locked">Locked</string>
 
     <!-- Power Widget  -->
-    <string name="power_widget_title">Power widget</string>
-    <string name="title_expanded_widget">Power widget</string>
+    <string name="power_widget_title">Status Bar Toggles</string>
+    <string name="title_expanded_widget">Toggles</string>
     <string name="power_widget_behavior">Widget behavior</string>
     <string name="title_expanded_hide_onchange">Close drawer on change</string>
     <string name="title_expanded_hide_indicator">Hide indicators</string>
