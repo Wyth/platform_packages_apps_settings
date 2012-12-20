@@ -86,7 +86,7 @@ public class QuickSettingsUtil {
                 "com.android.systemui:drawable/ic_qs_bluetooth_neutral"));
         TILES.put(TILE_BRIGHTNESS, new QuickSettingsUtil.TileInfo(
                 TILE_BRIGHTNESS, R.string.title_tile_brightness,
-                "com.android.systemui:drawable/ic_qs_neutral"));
+                "com.android.systemui:drawable/ic_qs_brightness_neutral"));
         TILES.put(TILE_FLASHLIGHT, new QuickSettingsUtil.TileInfo(
                 TILE_FLASHLIGHT, R.string.title_tile_flashlight,
                 "com.android.systemui:drawable/ic_qs_flashlight_neutral"));
