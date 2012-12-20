@@ -4838,9 +4838,9 @@
     <string name="status_bar_style_icon">Icon</string>
     <string name="status_bar_style_hidden">Hidden</string>
     <string name="status_bar_signal_text_show_text">Text</string>
-    <string name="status_bar_battery_status_percentage">Percentage</string>
-    <string name="status_bar_battery_status_circle">Circle</string>
-    <string name="status_bar_battery_status_circle_percentage">Circle with percentage</string>
+    <string name="status_bar_battery_status_percentage">Mini With Percent</string>
+    <string name="status_bar_battery_status_circle">Smooth Circle</string>
+    <string name="status_bar_battery_status_circle_percentage">Smooth Circle with Percent</string>
 
     <!-- Status bar notification count -->
     <string name="status_bar_notif_count_title">Show notification count</string>
@@ -4874,12 +4874,12 @@
     <string name="size_2_dp">2 dp</string>
     <string name="size_3_dp">3 dp</string>
     <string name="size_4_dp">4 dp</string>
-    <string name="icon_only">Icon only</string>
-    <string name="text_only">Text only</string>
+    <string name="icon_only">Stock Icon only</string>
+    <string name="text_only">Stock Text only</string>
 
     <!-- Battery styles -->
-    <string name="icon_with_text">Offset Percent</string>
-    <string name="icon_with_centered_text">Centered Percent</string>
+    <string name="icon_with_text">Stock with Offset Percent</string>
+    <string name="icon_with_centered_text">Stock with Centered Percent</string>
     <string name="circlemod">Circle Gear</string>
     <string name="stub">KillrStub</string>
 
