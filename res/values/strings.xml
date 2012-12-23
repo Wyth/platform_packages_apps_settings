@@ -4814,7 +4814,6 @@
     <string name="title_tile_lockscreen">Lock screen</string>
     <string name="title_tile_lte">LTE</string>
     <string name="title_tile_mobiledata">Mobile data</string>
-    <string name="title_tile_nfc">NFC</string>
     <string name="title_tile_profile">Profile</string>
     <string name="title_tile_autorotate">Orientation</string>
     <string name="title_tile_settings">Settings</string>
@@ -4826,6 +4825,8 @@
     <string name="title_tile_wimax">WiMAX</string>
     <string name="title_tile_user">User switcher</string>
     <string name="title_tile_networkmode">Network mode</string>
+    <string name="title_tile_nfc">NFC</string>
+    <string name="title_tile_screen_timeout">Screen timeout</string>
 
     <string name="title_dynamic_tiles">Dynamic tiles</string>
     <string name="dynamic_tiles_note_title">Note</string>
