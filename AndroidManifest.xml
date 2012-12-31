@@ -1434,37 +1434,11 @@
             android:theme="@style/CryptKeeperBlankTheme"
         />
 
-        <!-- Pseudo-activity used to provide an intent-filter entry point to encryption settings -->
-        <activity android:name="Settings$CryptKeeperSettingsActivity"
-                android:label="@string/crypt_keeper_encrypt_title">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <action android:name="android.app.action.START_ENCRYPTION" />
-                <category android:name="android.intent.category.DEFAULT" /> />
-            </intent-filter>
-            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.android.settings.CryptKeeperSettings" />
-            <meta-data android:name="com.android.settings.TOP_LEVEL_HEADER_ID"
-                android:resource="@id/security_settings" />
-        </activity>
-
-        <activity android:name="Settings$DataUsageSummaryActivity"
-                android:label="@string/data_usage_summary_title"
-                android:uiOptions="none"
-                android:taskAffinity=""
-                android:excludeFromRecents="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="com.android.settings.SHORTCUT" />
-            </intent-filter>
-            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.android.settings.DataUsageSummary" />
-            <meta-data android:name="com.android.settings.TOP_LEVEL_HEADER_ID"
-                android:resource="@id/wireless_settings" />
-        </activity>
-
         <!-- CyanogenMod activities Start -->
+        <activity android:name=".cyanogenmod.PowerWidget" />
+
+        <activity android:name=".cyanogenmod.SystemSettings" />
+
         <activity android:name=".profiles.ProfilesSettings" />
         <activity android:name="Settings$ProfilesSettingsActivity"
                 android:label="@string/profile_settings"
@@ -1519,18 +1493,6 @@
 
         <activity android:name=".cyanogenmod.StatusBar" />
 
-        <activity android:name=".aokp.StatusBarBattery" />
-
-        <activity android:name=".aokp.NavRingTargets" />
-
-        <activity android:name=".aokp.NavBarItemPreference" />
-
-        <activity android:name=".aokp.WidgetConfigurationFragment" />
-
-        <activity android:name=".aokp.SeekBarPreference" />
-
-        <activity android:name=".aokp.TouchInterceptor" />
-
         <activity android:name=".profiles.NFCProfile"
                 android:theme="@android:style/Theme.NoDisplay">
             <intent-filter>
@@ -1544,11 +1506,37 @@
 
         <activity android:name=".notificationlight.BatteryLightSettings" />
 
-        <activity android:name=".cyanogenmod.SystemSettings" />
-
-        <activity android:name=".cyanogenmod.PowerWidget" />
-
         <!-- CyanogenMod activities End -->
+
+        <!-- Pseudo-activity used to provide an intent-filter entry point to encryption settings -->
+        <activity android:name="Settings$CryptKeeperSettingsActivity"
+                android:label="@string/crypt_keeper_encrypt_title">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.app.action.START_ENCRYPTION" />
+                <category android:name="android.intent.category.DEFAULT" /> />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.CryptKeeperSettings" />
+            <meta-data android:name="com.android.settings.TOP_LEVEL_HEADER_ID"
+                android:resource="@id/security_settings" />
+        </activity>
+
+        <activity android:name="Settings$DataUsageSummaryActivity"
+                android:label="@string/data_usage_summary_title"
+                android:uiOptions="none"
+                android:taskAffinity=""
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="com.android.settings.SHORTCUT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.DataUsageSummary" />
+            <meta-data android:name="com.android.settings.TOP_LEVEL_HEADER_ID"
+                android:resource="@id/wireless_settings" />
+        </activity>
 
         <receiver android:name=".widget.SettingsAppWidgetProvider"
                 android:label="@string/gadget_title"
@@ -1579,6 +1567,18 @@
                 <action android:name="android.provider.Contacts.PROFILE_CHANGED" />
             </intent-filter>
         </receiver>
+
+        <activity android:name=".aokp.StatusBarBattery" />
+
+        <activity android:name=".aokp.NavRingTargets" />
+
+        <activity android:name=".aokp.NavBarItemPreference" />
+
+        <activity android:name=".aokp.WidgetConfigurationFragment" />
+
+        <activity android:name=".aokp.SeekBarPreference" />
+
+        <activity android:name=".aokp.TouchInterceptor" />
 
         <activity
             android:name=".aokp.StatusBarBattery"
