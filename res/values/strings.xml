@@ -4884,6 +4884,9 @@
     <string name="lock_clock_title">Clock widget</string>
     <string name="lock_clock_summary">View or change how the \'Chronus\' Home and Lock screen widgets will display</string>
 
+    <string name="lockscreen_maximize_widgets_title">Maximize widgets</string>
+    <string name="lockscreen_maximize_widgets_summary">Show widgets maximized and the unlock mimimized when the screen is turned on</string>
+
     <!-- **** KILLROM ADDITIONS END **** -->
 
     <string name="title_statusbar_battery">Statusbar Battery</string>
