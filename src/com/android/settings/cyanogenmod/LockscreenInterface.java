@@ -16,6 +16,7 @@
 package com.android.settings.cyanogenmod;
 
 import android.content.ContentResolver;
+import android.content.Context;
 import android.os.Bundle;
 import android.content.pm.PackageManager.NameNotFoundException;
 import android.preference.CheckBoxPreference;
@@ -36,12 +37,16 @@ public class LockscreenInterface extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
     private static final String TAG = "LockscreenInterface";
 
+    public static final String KEY_SEE_TRHOUGH = "see_through";
     private static final String KEY_ALWAYS_BATTERY_PREF = "lockscreen_battery_status";
     private static final String KEY_LOCK_CLOCK = "lock_clock";
     private static final String KEY_LOCKSCREEN_MAXIMIZE_WIDGETS = "lockscreen_maximize_widgets";
 
+    private CheckBoxPreference mSeeThrough;
     private ListPreference mBatteryStatus;
     private CheckBoxPreference mMaximizeWidgets;
+
+    private Context mContext;
 
     public boolean hasButtons() {
         return !getResources().getBoolean(com.android.internal.R.bool.config_showNavigationBar);
@@ -52,6 +57,11 @@ public class LockscreenInterface extends SettingsPreferenceFragment implements
         super.onCreate(savedInstanceState);
 
         addPreferencesFromResource(R.xml.lockscreen_interface_settings);
+
+        PreferenceScreen prefSet = getPreferenceScreen();
+        mContext = getActivity();
+        
+        mSeeThrough = (CheckBoxPreference) prefSet.findPreference(KEY_SEE_TRHOUGH);
 
         // Dont display the lock clock preference if its not installed
         removePreferenceIfPackageNotInstalled(findPreference(KEY_LOCK_CLOCK));
@@ -86,6 +96,17 @@ public class LockscreenInterface extends SettingsPreferenceFragment implements
             mMaximizeWidgets.setChecked(Settings.System.getInt(cr,
                     Settings.System.LOCKSCREEN_MAXIMIZE_WIDGETS, 0) == 1);
         }
+    }
+
+    @Override
+    public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
+		if (preference == mSeeThrough) {
+			Settings.System.putInt(mContext.getContentResolver(),
+			        Settings.System.LOCKSCREEN_SEE_THROUGH, mSeeThrough.isChecked()
+			        ? 1 : 0);
+		return true;
+        }
+        return super.onPreferenceTreeClick(preferenceScreen, preference);
     }
 
     @Override
