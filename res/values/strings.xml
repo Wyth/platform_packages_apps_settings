@@ -5116,4 +5116,5 @@
     <string name="see_through_title">Transparent lockscreen</string>
     <string name="see_through_summary">Allows visibility of the application or home screen behind the lock screen.</string>
 
+    <!-- **** CYANOGENMOD ADDITIONS END **** -->
 </resources>

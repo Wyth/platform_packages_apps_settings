@@ -5097,8 +5097,6 @@
     <string name="pref_wifi_disable_hdcp_title">Skip HDCP negotiation</string>
     <string name="pref_wifi_disable_hdcp_summary">Try this option if you can connect but don\'t get any output</string>
 
-<<<<<<< HEAD
-=======
     <!-- Custom lock screen background -->
     <string name="lockscreen_custom_background_title">Background</string>
     <string name="lockscreen_custom_background_dialog_title">Choose color</string>
@@ -5108,15 +5106,18 @@
     <string name="lockscreen_background_custom_image">Custom image</string>
     <string name="lockscreen_background_default_wallpaper">Default wallpaper</string>
 
+<<<<<<< HEAD
     <!-- Lockscreen Widget Carousel -->
     <string name="lockscreen_use_widget_container_carousel_title">Use widget carousel</string>
     <string name="lockscreen_use_widget_container_carousel_summary">Use a carousel animation when switching between lockscreen widgets.</string>
 
     <!-- **** CYANOGENMOD ADDITIONS END **** -->
 
->>>>>>> b75a22e... Carousel Animation Lockscreen
     <!-- Lock screen see through -->
     <string name="see_through_title">Transparent lockscreen</string>
     <string name="see_through_summary">Allows visibility of the application or home screen behind the lock screen.</string>
 
+=======
+    <!-- **** CYANOGENMOD ADDITIONS END **** -->
+>>>>>>> 6e99cfa... Custom lockscreen background
 </resources>
