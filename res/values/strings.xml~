@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2007 The Android Open Source Project
+<<<<<<< HEAD
+=======
+     Copyright (C) 2013 The CyanogenMod Project
+>>>>>>> bd3193d... Settings: Custom lock screen background [2/2]
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -13,7 +17,9 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Strings for Dialog yes button -->
     <string name="yes">"Yes"</string>
 
@@ -4402,10 +4408,10 @@
 
     <!-- MODIFIER Settings  -->
     <!-- Settings main menu category heading. Interface (Launcher, Profiles, System). [CHAR LIMIT=40] -->
-    <string name="header_category_interface">KILLR MODIFIERS</string>
+    <string name="header_category_interface">BAT-MODIFIERS</string>
 
     <!-- KILLRHome settings  -->
-    <string name="launcher_settings_title">KILLRHome</string>
+    <string name="launcher_settings_title">BatCave</string>
     <string name="header_summary_home">Launcher Mods</string>
 
     <!-- KILLROM EDITS START -->
@@ -4449,7 +4455,7 @@
     <string name="end_time_title">End</string>
 
     <!-- About phone screen,  setting option name-->
-    <string name="mod_version">KILLRom Version</string>
+    <string name="mod_version">TDKRom Version</string>
     <string name="mod_version_default">Unknown</string>
     <!-- About phone screen, build date of ROM -->
     <string name="build_date">Date Of Crime</string>
@@ -5100,4 +5106,17 @@
     <string name="pref_wifi_disable_hdcp_title">Skip HDCP negotiation</string>
     <string name="pref_wifi_disable_hdcp_summary">Try this option if you can connect but don\'t get any output</string>
 
+<<<<<<< HEAD
+=======
+    <!-- Custom lock screen background -->
+    <string name="lockscreen_custom_background_title">Background</string>
+    <string name="lockscreen_custom_background_dialog_title">Choose color</string>
+    <string name="lockscreen_background_result_successful">Background changed successfully</string>
+    <string name="lockscreen_background_result_not_successful">Background could not be changed</string>
+    <string name="lockscreen_background_color_fill">Color fill</string>
+    <string name="lockscreen_background_custom_image">Custom image</string>
+    <string name="lockscreen_background_default_wallpaper">Default wallpaper</string>
+
+    <!-- **** CYANOGENMOD ADDITIONS END **** -->
+>>>>>>> bd3193d... Settings: Custom lock screen background [2/2]
 </resources>
