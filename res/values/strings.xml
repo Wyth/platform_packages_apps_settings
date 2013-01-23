@@ -4803,6 +4803,7 @@
     <string name="power_menu_airplane_title">Airplane mode</string>
     <string name="power_menu_user_title">User switcher</string>
     <string name="power_menu_sound_title">Sound panel</string>
+    <string name="title_show_navbar_hide">Show navigation bar toggle</string>
 
     <!-- Quick settings panel  -->
     <string name="quick_settings_panel_title">Quick Settings</string>
