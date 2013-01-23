@@ -36,6 +36,7 @@ public class PowerMenu extends SettingsPreferenceFragment {
     private static final String KEY_AIRPLANE = "power_menu_airplane";
     private static final String KEY_USER = "power_menu_user";
     private static final String KEY_SOUND = "power_menu_sound";
+    private static final String PREF_NAVBAR_HIDE = "show_navbar_hide";
 
     private CheckBoxPreference mRebootPref;
     private CheckBoxPreference mScreenshotPref;
@@ -43,6 +44,7 @@ public class PowerMenu extends SettingsPreferenceFragment {
     private CheckBoxPreference mAirplanePref;
     private CheckBoxPreference mUserPref;
     private CheckBoxPreference mSoundPref;
+    private CheckBoxPreference mShowNavBarHide;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -84,6 +86,11 @@ public class PowerMenu extends SettingsPreferenceFragment {
         mSoundPref.setChecked((Settings.System.getInt(getContentResolver(),
                 Settings.System.POWER_MENU_SOUND_ENABLED, 1) == 1));
 
+        mShowNavBarHide = (CheckBoxPreference) findPreference(PREF_NAVBAR_HIDE);
+        mShowNavBarHide.setChecked(Settings.System.getBoolean(getActivity()
+                .getContentResolver(), Settings.System.POWER_DIALOG_SHOW_NAVBAR_HIDE,
+                false));
+
     }
 
     @Override
@@ -119,6 +126,11 @@ public class PowerMenu extends SettingsPreferenceFragment {
             value = mSoundPref.isChecked();
             Settings.System.putInt(getContentResolver(),
                     Settings.System.POWER_MENU_SOUND_ENABLED,
+                    value ? 1 : 0);
+        } else if (preference == mShowNavBarHide) {
+			value = mShowNavBarHide.isChecked();
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.POWER_DIALOG_SHOW_NAVBAR_HIDE,
                     value ? 1 : 0);
         } else {
             return super.onPreferenceTreeClick(preferenceScreen, preference);

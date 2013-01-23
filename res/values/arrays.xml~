@@ -1,4 +1,8 @@
+<<<<<<< .merge_file_i7lT86
 <?xml version="1.0" encoding="utf-8"?>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+>>>>>>> .merge_file_MAPvo3
 <!-- Copyright (C) 2007 The Android Open Source Project
      Copyright (C) 2013 The CyanogenMod Project
 
@@ -1001,9 +1005,9 @@
     </string-array>
 
     <string-array name="entries_network_widget">
-        <item>2G/3G+2G</item>  
-        <item>2G/3G Only</item>   
-        <item>2G/3G Only/3G+2G</item>
+        <item>2G | 2G+3G</item>
+        <item>2G | 3G</item>
+        <item>2G | 3G | 2G+3G</item>
     </string-array>
 
     <string-array name="values_network_widget" translatable="false">
@@ -1013,8 +1017,8 @@
     </string-array>
 
     <string-array name="entries_screentimeout_widget">
-        <item>15s/1m/5m</item>
-        <item>30s/2m/5m</item>
+        <item>15s | 1m | 5m</item>
+        <item>30s | 2m | 5m</item>
     </string-array>
 
     <string-array name="values_screentimeout_widget" translatable="false">
@@ -1131,7 +1135,6 @@
         <item>2</item>
         <item>3</item>
     </string-array>
-<<<<<<< HEAD
     <string-array name="battery_bar_style_entries" translatable="false">
         <item>@string/regular</item>
         <item>@string/center_mirrored</item>

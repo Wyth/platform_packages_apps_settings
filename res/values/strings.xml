@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- Copyright (C) 2007 The Android Open Source Project
      Copyright (C) 2013 The CyanogenMod Project
 
@@ -4786,7 +4786,7 @@
     <string name="cm_sound_mode_silent">Silent</string>
     <string name="cm_sound_mode_vibrate">Vibrate</string>
     <string name="cm_sound_mode_sound">Sound</string>
-    <string name="cm_sound_mode_soundVibrate">Sound + Vibrate</string>
+    <string name="cm_sound_mode_soundVibrate">Sound &amp; Vibrate</string>
     <string name="pref_flash_mode_title">Flash mode</string>
     <string name="expanded_haptic_feedback_title">Haptic feedback</string>
 
@@ -4803,6 +4803,7 @@
     <string name="power_menu_airplane_title">Airplane mode</string>
     <string name="power_menu_user_title">User switcher</string>
     <string name="power_menu_sound_title">Sound panel</string>
+    <string name="title_show_navbar_hide">Show navigation bar toggle</string>
 
     <!-- Quick settings panel  -->
     <string name="quick_settings_panel_title">Quick Settings</string>
@@ -4835,6 +4836,7 @@
     <string name="title_tile_networkmode">Network mode</string>
     <string name="title_tile_nfc">NFC</string>
     <string name="title_tile_screen_timeout">Screen timeout</string>
+    <string name="title_tile_usb_tether">USB Tether</string>
 
     <string name="title_dynamic_tiles">Dynamic tiles</string>
     <string name="dynamic_tiles_note_title">Note</string>
@@ -4842,6 +4844,7 @@
     <string name="title_dynamic_alarm">Alarm clock</string>
     <string name="title_dynamic_bugreport">Bug report</string>
     <string name="title_dynamic_ime">IME changer</string>
+    <string name="title_dynamic_usbtether">USB Tether</string>
     <string name="title_dynamic_wifi">Wi-Fi display</string>
     <string name="title_general">General</string>
 
@@ -5113,4 +5116,9 @@
     <string name="lockscreen_background_default_wallpaper">Default wallpaper</string>
 
     <!-- **** CYANOGENMOD ADDITIONS END **** -->
+
+    <!-- Lock screen see through -->
+    <string name="see_through_title">Transparent lockscreen</string>
+    <string name="see_through_summary">Allows visibility of the application or home screen behind the lock screen.</string>
+
 </resources>
