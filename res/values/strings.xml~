@@ -5106,7 +5106,6 @@
     <string name="pref_wifi_disable_hdcp_title">Skip HDCP negotiation</string>
     <string name="pref_wifi_disable_hdcp_summary">Try this option if you can connect but don\'t get any output</string>
 
-<<<<<<< .merge_file_wZmbA9
     <!-- Custom lock screen background -->
     <string name="lockscreen_custom_background_title">Background</string>
     <string name="lockscreen_custom_background_dialog_title">Choose color</string>
@@ -5117,10 +5116,9 @@
     <string name="lockscreen_background_default_wallpaper">Default wallpaper</string>
 
     <!-- **** CYANOGENMOD ADDITIONS END **** -->
-=======
+
     <!-- Lock screen see through -->
     <string name="see_through_title">Transparent lockscreen</string>
     <string name="see_through_summary">Allows visibility of the application or home screen behind the lock screen.</string>
 
->>>>>>> .merge_file_MBxiK8
 </resources>

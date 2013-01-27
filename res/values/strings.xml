@@ -5115,6 +5115,10 @@
     <string name="lockscreen_background_custom_image">Custom image</string>
     <string name="lockscreen_background_default_wallpaper">Default wallpaper</string>
 
+    <!-- Lockscreen Widget Carousel -->
+    <string name="lockscreen_use_widget_container_carousel_title">Use widget carousel</string>
+    <string name="lockscreen_use_widget_container_carousel_summary">Use a carousel animation when switching between lockscreen widgets.</string>
+
     <!-- **** CYANOGENMOD ADDITIONS END **** -->
 
     <!-- Lock screen see through -->

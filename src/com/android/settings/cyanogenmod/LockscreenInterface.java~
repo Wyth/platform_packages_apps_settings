@@ -73,9 +73,7 @@ public class LockscreenInterface extends SettingsPreferenceFragment implements
     private File mWallpaperImage;
     private File mWallpaperTemporary;
     private CheckBoxPreference mSeeThrough;
-    private ListPreference mBatteryStatus;
-    private CheckBoxPreference mMaximizeWidgets;
-
+    
     private Context mContext;
 
     public boolean hasButtons() {
