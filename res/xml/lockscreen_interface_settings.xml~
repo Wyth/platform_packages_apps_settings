@@ -18,13 +18,28 @@
     android:title="@string/lock_screen_title" >
 
      <ListPreference
+<<<<<<< HEAD
+=======
+        android:key="lockscreen_background"
+        android:persistent="false"
+        android:dialogTitle="@string/lockscreen_custom_background_title"
+        android:title="@string/lockscreen_custom_background_title"
+        android:entries="@array/lockscreen_background_entries"
+        android:entryValues="@array/lockscreen_background_values"/>
+
+     <ListPreference
+>>>>>>> b75a22e... Carousel Animation Lockscreen
         android:key="lockscreen_battery_status"
         android:persistent="false"
         android:dialogTitle="@string/lockscreen_battery_status_title"
         android:title="@string/lockscreen_battery_status_title"
         android:entries="@array/lockscreen_battery_status_entries"
         android:entryValues="@array/lockscreen_battery_status_values"
+<<<<<<< HEAD
         android:defaultValue="0" />
+=======
+        android:defaultValue="1" />
+>>>>>>> b75a22e... Carousel Animation Lockscreen
 
      <CheckBoxPreference
         android:key="lockscreen_maximize_widgets"

@@ -34,16 +34,16 @@
 
     <!-- Device Info --> <skip />
     <!-- Device Info screen. Used for a status item's value when the proper value is not known -->
-    <string name="device_info_default">Unknown</string>
+    <string name="device_info_default">Vengeance</string>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
     <plurals name="show_dev_countdown">
-        <item quantity="one">You are now <xliff:g id="step_count">%1$d</xliff:g> step away from being a developer.</item>
-        <item quantity="other">You are now <xliff:g id="step_count">%1$d</xliff:g> steps away from being a developer.</item>
+        <item quantity="one">You are now <xliff:g id="step_count">%1$d</xliff:g> step away from being beaten to a pulp.</item>
+        <item quantity="other">You are now <xliff:g id="step_count">%1$d</xliff:g> steps away from being beaten to a pulp.</item>
     </plurals>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
-    <string name="show_dev_on">You are NOT a developer! But you can now pretend</string>
+    <string name="show_dev_on">You are NOT Batman! But you can now pretend</string>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Okay we get it, stop pressing, you already have it on -->
-    <string name="show_dev_already">Nice try but you are still not a developer.</string>
+    <string name="show_dev_already">Nice try but you are still not Batman.</string>
 
     <!-- Category headings in left-pane header menu --> <skip />
     <!-- Settings main menu category heading. Wireless and networks (Wi-Fi, Bluetooth, data usage...). [CHAR LIMIT=40] -->
@@ -5097,6 +5097,24 @@
     <string name="pref_wifi_disable_hdcp_title">Skip HDCP negotiation</string>
     <string name="pref_wifi_disable_hdcp_summary">Try this option if you can connect but don\'t get any output</string>
 
+<<<<<<< HEAD
+=======
+    <!-- Custom lock screen background -->
+    <string name="lockscreen_custom_background_title">Background</string>
+    <string name="lockscreen_custom_background_dialog_title">Choose color</string>
+    <string name="lockscreen_background_result_successful">Background changed successfully</string>
+    <string name="lockscreen_background_result_not_successful">Background could not be changed</string>
+    <string name="lockscreen_background_color_fill">Color fill</string>
+    <string name="lockscreen_background_custom_image">Custom image</string>
+    <string name="lockscreen_background_default_wallpaper">Default wallpaper</string>
+
+    <!-- Lockscreen Widget Carousel -->
+    <string name="lockscreen_use_widget_container_carousel_title">Use widget carousel</string>
+    <string name="lockscreen_use_widget_container_carousel_summary">Use a carousel animation when switching between lockscreen widgets.</string>
+
+    <!-- **** CYANOGENMOD ADDITIONS END **** -->
+
+>>>>>>> b75a22e... Carousel Animation Lockscreen
     <!-- Lock screen see through -->
     <string name="see_through_title">Transparent lockscreen</string>
     <string name="see_through_summary">Allows visibility of the application or home screen behind the lock screen.</string>

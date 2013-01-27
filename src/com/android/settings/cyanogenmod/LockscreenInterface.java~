@@ -41,18 +41,24 @@ public class LockscreenInterface extends SettingsPreferenceFragment implements
     private static final String KEY_ALWAYS_BATTERY_PREF = "lockscreen_battery_status";
     private static final String KEY_LOCK_CLOCK = "lock_clock";
     private static final String KEY_LOCKSCREEN_MAXIMIZE_WIDGETS = "lockscreen_maximize_widgets";
+<<<<<<< HEAD
+=======
     private static final String KEY_BACKGROUND_PREF = "lockscreen_background";
     private static final String PREF_LOCKSCREEN_USE_CAROUSEL = "lockscreen_use_widget_container_carousel";
+>>>>>>> b75a22e... Carousel Animation Lockscreen
 
     private CheckBoxPreference mSeeThrough;
     private ListPreference mBatteryStatus;
     private CheckBoxPreference mMaximizeWidgets;
 
+<<<<<<< HEAD
+=======
     private File mWallpaperImage;
     private File mWallpaperTemporary;
     private CheckBoxPreference mSeeThrough;
     private CheckBoxPreference mLockscreenUseCarousel;
     
+>>>>>>> b75a22e... Carousel Animation Lockscreen
     private Context mContext;
 
     public boolean hasButtons() {
@@ -85,6 +91,8 @@ public class LockscreenInterface extends SettingsPreferenceFragment implements
         } else {
             mMaximizeWidgets.setOnPreferenceChangeListener(this);
         }
+<<<<<<< HEAD
+=======
 
         mLockscreenUseCarousel = (CheckBoxPreference)findPreference(PREF_LOCKSCREEN_USE_CAROUSEL);
         mLockscreenUseCarousel.setChecked(Settings.System.getBoolean(getActivity().getContentResolver(),
@@ -113,6 +121,7 @@ public class LockscreenInterface extends SettingsPreferenceFragment implements
             mCustomBackground.setValueIndex(LOCKSCREEN_BACKGROUND_COLOR_FILL);
         }
         mCustomBackground.setSummary(getResources().getString(resId));
+>>>>>>> b75a22e... Carousel Animation Lockscreen
     }
 
     @Override
