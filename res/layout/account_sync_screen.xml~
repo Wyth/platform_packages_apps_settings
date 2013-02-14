@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-/* //device/apps/common/assets/res/layout/list_content.xml
+/*
 **
 ** Copyright 2006, The Android Open Source Project
 **
@@ -22,7 +22,17 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+    <include layout="@layout/title" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@*android:dimen/preference_fragment_padding_side"
+        android:layout_marginEnd="@*android:dimen/preference_fragment_padding_side"
+        android:scaleType="fitXY"
+        android:src="?android:attr/listDivider" />
+
+    <ListView
         android:id="@android:id/list"
         android:layout_width="match_parent"
         android:layout_height="0dip"
@@ -37,5 +47,23 @@
         android:text="@string/sync_is_failing"
         android:drawablePadding="8dip"
         android:drawableStart="@drawable/ic_sync_error_holo" />
+
+    <RelativeLayout android:id="@+id/finish_button_area"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@android:drawable/bottom_bar"
+        android:visibility="gone">
+        
+        <Button android:id="@+id/finish_button"
+            android:layout_width="150dip"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:layout_alignParentEnd="true"
+            android:drawableEnd="@drawable/ic_btn_next"
+            android:drawablePadding="3dip"
+            android:text="@string/finish_button_label"
+        />
+        
+    </RelativeLayout>
 
 </LinearLayout>

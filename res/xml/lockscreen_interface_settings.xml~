@@ -46,6 +46,14 @@
         android:summary="@string/lockscreen_target_summary"
         android:title="@string/lockscreen_target_title" />
 
+<<<<<<< HEAD
+     <CheckBoxPreference
+        android:key="lockscreen_use_widget_container_carousel"
+        android:title="@string/lockscreen_use_widget_container_carousel_title"
+        android:summary="@string/lockscreen_use_widget_container_carousel_summary" />
+
+=======
+>>>>>>> f4d1ae228dde51f7b6f8cf11c3f84e21e568131b
     <CheckBoxPreference
         android:key="see_through"
         android:title="@string/see_through_title"
