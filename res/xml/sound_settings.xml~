@@ -57,7 +57,7 @@
     <CheckBoxPreference
          android:key="vibrate_when_ringing"
          android:title="@string/vibrate_when_ringing_title"
-         android:persistent="true" />
+         android:persistent="false" />
 
     <com.android.settings.IncreasingRingPreference
             android:key="increasing_ring"
@@ -81,17 +81,17 @@
     <CheckBoxPreference
             android:key="dtmf_tone"
             android:title="@string/dtmf_tone_enable_title"
-            android:defaultValue="false" />
+            android:defaultValue="true" />
 
     <CheckBoxPreference
             android:key="sound_effects"
             android:title="@string/sound_effects_enable_title"
-            android:defaultValue="false" />
+            android:defaultValue="true" />
 
     <CheckBoxPreference
             android:key="lock_sounds"
             android:title="@string/lock_sounds_enable_title"
-            android:defaultValue="false" />
+            android:defaultValue="true" />
 
     <CheckBoxPreference
             android:key="haptic_feedback"
