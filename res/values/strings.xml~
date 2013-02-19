@@ -4391,10 +4391,10 @@
 
     <!-- MODIFIER Settings  -->
     <!-- Settings main menu category heading. Interface (Launcher, Profiles, System). [CHAR LIMIT=40] -->
-    <string name="header_category_interface">KILLR MODIFIERS</string>
+    <string name="header_category_interface">TDKRom MODIFIERS</string>
 
     <!-- KILLRHome settings  -->
-    <string name="launcher_settings_title">KILLRHome</string>
+    <string name="launcher_settings_title">Batcave</string>
     <string name="header_summary_home">Launcher Mods</string>
 
     <!-- KILLROM EDITS START -->
@@ -4442,7 +4442,7 @@
     <string name="notification_convert_sound_to_vibration_summary">In vibrate mode, all notifications will vibrate regardless of individual app settings</string>
 
     <!-- About phone screen,  setting option name-->
-    <string name="mod_version">KILLRom Version</string>
+    <string name="mod_version">TDKRom Version</string>
     <string name="mod_version_default">Unknown</string>
     <!-- About phone screen, build date of ROM -->
     <string name="build_date">Date Of Crime</string>
