@@ -33,13 +33,6 @@
         android:key="battery_light"
         android:title="@string/battery_light_title"
         android:fragment="com.android.settings.notificationlight.BatteryLightSettings" />
-</PreferenceScreen>
-
-
-    <PreferenceScreen
-	android:key="navigation_bar"
-	android:fragment="com.android.settings.projectelite.NavBarprefs"
-	android:title="@string/navigation_bar_title" />
 
   <PreferenceScreen
         android:key="pie_control"
@@ -47,26 +40,4 @@
         android:fragment="com.android.settings.paranoid.Pie"
         android:title="@string/pie_controls_title"
         android:summary="@string/pie_controls_summary" />
-
-    <PreferenceScreen
-        android:key="power_menu"
-        android:title="@string/power_menu_title"
-        android:fragment="com.android.settings.cyanogenmod.PowerMenu" />
-
-    <!-- Lock clock -->
-    <PreferenceScreen
-        android:key="lock_clock"
-        android:title="@string/lock_clock_title"
-        android:summary="@string/lock_clock_summary">
-        <intent android:action="android.intent.action.MAIN"
-                android:targetPackage="com.cyanogenmod.lockclock"
-                android:targetClass="com.cyanogenmod.lockclock.preference.Preferences" />
-    </PreferenceScreen>
-
-    <CheckBoxPreference
-	android:key="force_dualpanel"
-	android:title="@string/multipane_ui"
-	android:summary="@string/multipane_ui_summary"
-	android:defaultValue="false" />
-
 </PreferenceScreen>
