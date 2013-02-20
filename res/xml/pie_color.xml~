@@ -47,19 +47,19 @@
 	<net.margaritov.preference.colorpicker.ColorPickerPreference
 		android:key="pie_chevron_left"
 		android:title="@string/pie_chevron_left_title"
-		android:defaultValue="#ffd000"
+		android:defaultValue="#0999cc"
                 android:dependency="pie_enable_color" />
 
 	<net.margaritov.preference.colorpicker.ColorPickerPreference
 		android:key="pie_chevron_right"
 		android:title="@string/pie_chevron_right_title"
-		android:defaultValue="#ffd000"
+		android:defaultValue="#33b5e5"
                 android:dependency="pie_enable_color" />
 
         <net.margaritov.preference.colorpicker.ColorPickerPreference
                 android:key="pie_juice"
                 android:title="@string/pie_juice_title"
-                android:defaultValue="#ffd000"
+                android:defaultValue="#33b5e5"
                 android:dependency="pie_enable_color" />
 
 </PreferenceScreen>
