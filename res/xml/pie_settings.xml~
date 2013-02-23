@@ -35,11 +35,14 @@
             android:entries="@array/entries_pie_trigger"
             android:entryValues="@array/values_pie_trigger" />
 
+<<<<<<< HEAD:res/xml/pie_settings.xml
+=======
         <CheckBoxPreference
             android:key="pie_stick"
             android:title="@string/pie_stick_title"
             android:summary="@string/pie_stick_summary" />
 
+>>>>>>> f929ae3... new pie options:res/xml/tool_bar_settings.xml
         <ListPreference
             android:key="pie_gravity"
             android:dialogTitle="@string/pie_gravity_title"
